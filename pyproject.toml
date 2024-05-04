@@ -21,3 +21,6 @@ flake8 = "^7.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.packages]
+include = "src/manga_tracker"
