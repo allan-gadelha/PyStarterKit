@@ -7,10 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "^2.2.2"
-selenium = "^4.20.0"
-requests = "^2.31.0"
-beautifulsoup4 = "^4.12.3"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -24,4 +20,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [[tool.poetry.packages]]
-include = "src/manga_tracker"
+include = "src/app"
