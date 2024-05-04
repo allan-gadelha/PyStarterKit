@@ -1,6 +1,6 @@
-# Python Project Template Essentials
+# PyStarterKit
 
-This repository serves as a template for Python projects, providing a basic structure that helps you get started quickly. It includes essential components like testing setup, linting, formatting, and more.
+PyStarterKit is a Python project template to help you get started quickly with your new Python projects. It includes essential components like testing setup, linting, formatting, and more.
 
 ## Features
 
@@ -46,6 +46,23 @@ Here's how you can use the different features of this template:
 Remember, to enter the Poetry shell, use the command `poetry shell`. This ensures that the correct Python environment and dependencies are used.
 
 To use `black` and `flake8` within a `poetry` shell, first activate the shell with `poetry shell`, then you can run `black` and `flake8` as usual.
+
+## Customizing the Project
+
+### Update the Author Information
+
+The pyproject.toml file contains a placeholder for the author's information. To update it:
+
+1. Open pyproject.toml in your text editor.
+2. Find the authors field under [tool.poetry].
+3. Replace "Your Name <your.email@example.com>" with your name and email address, like this:
+
+```toml
+authors = ["Your Actual Name <your.actual.email@example.com>"]
+```
+
+4. Save and close the file
+
 
 ## Managing Dependencies with Poetry
 
