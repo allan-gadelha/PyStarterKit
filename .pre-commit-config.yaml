@@ -17,3 +17,7 @@ repos:
     rev: 7.0.0
     hooks:
     - id: flake8
+-   repo: https://github.com/opensource-nepal/commitlint
+    rev: v1
+    hooks:
+    - id: commitlint
