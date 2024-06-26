@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.3.0
+    rev: v4.6.0
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -14,10 +14,10 @@ repos:
     hooks:
     - id: black
 -   repo: https://github.com/PyCQA/flake8
-    rev: 7.0.0
+    rev: 7.1.0
     hooks:
     - id: flake8
 -   repo: https://github.com/opensource-nepal/commitlint
-    rev: v1
+    rev: v1.0
     hooks:
     - id: commitlint
