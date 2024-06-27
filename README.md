@@ -10,15 +10,19 @@ PyStarterKit is a Python project template to help you get started quickly with y
 - **Linting**: Linting is set up with Flake8.
 - **Testing**: Unit tests are set up with Pytest.
 - **Pre-commit Hooks**: Pre-commit hooks are set up with Pre-commit.
+- **Commit Message Standardization**: Commitizen is set up for standardizing commit messages.
+- **Commit Message Linting**: Commitlint is set up for linting commit messages according to conventional commit standards.
 
 ## Prerequisites
 
 Before you can use this template, you need to have the following tools installed on your machine:
 
-- Python: You can download it from the [official website](https://www.python.org/downloads/).
-- Pyenv: You can install it using the instructions in the [Pyenv GitHub repository](https://github.com/pyenv/pyenv#installation).
-- Poetry: You can install it using the instructions on the [Poetry website](https://python-poetry.org/docs/#installation).
-- Pre-commit: You can install it using the instructions on the [Pre-commit website](https://pre-commit.com/#install).
+- **Python**: You can download it from the [official website](https://www.python.org/downloads/).
+- **Pyenv**: You can install it using the instructions in the [Pyenv GitHub repository](https://github.com/pyenv/pyenv#installation).
+- **Poetry**: You can install it using the instructions on the [Poetry website](https://python-poetry.org/docs/#installation).
+- **Pre-commit**: You can install it using the instructions on the [Pre-commit website](https://pre-commit.com/#install).
+- **Commitizen**: You can install it using the instructions on the Python Project part on the [Commitizen Python website](https://pypi.org/project/commitizen/#description).
+- **Commitlint**: You can install it using the instruction on the [Commitlint Python website](https://pypi.org/project/commitlint/#description).
 
 Once you have these tools installed, you can follow the instructions in the "Getting Started" section to set up your project.
 
@@ -42,6 +46,7 @@ Here's how you can use the different features of this template:
 - **Linting**: You can lint your code using the command `flake8`.
 - **Formatting**: You can format your code using the command `black`.
 - **Pre-commit Hooks**: Pre-commit will automatically check your code for formatting and linting errors before each commit.
+- **Committing Changes**: Use `cz commit` instead of `git commit` when you're ready to commit changes. This will prompt you to fill out any required commit fields according to the conventional commit format.
 
 Remember, to enter the Poetry shell, use the command `poetry shell`. This ensures that the correct Python environment and dependencies are used.
 
